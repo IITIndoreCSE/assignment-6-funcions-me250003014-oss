@@ -3,8 +3,11 @@
 using namespace std;
 
 int sumArray(const vector<int>& arr) {
-    // TODO: complete the function as per instructions
-    
+    int sum = 0;
+    for (int num : arr) {
+        sum += num;
+    }
+    return sum;    
 }
 
 int main() {
